@@ -4,9 +4,9 @@
         "humanizer_language": "it"
     },
     "restarter": {
-        "start_timeout": "Avviato fallito nel tempo previsto",
-        "crash_detected": "rilevato crash",
-        "hang_detected": "blocco rilevato",
+        "start_timeout": "Avvio fallito nel tempo previsto",
+        "crash_detected": "Crash rilevato",
+        "hang_detected": "Blocco rilevato",
         "partial_hang_warn": "A causa di un blocco parziale, questo server verrà riavviato tra 1 minuto. Si prega di disconnettersi ora.",
         "partial_hang_warn_discord": "A causa di un blocco parziale, **%{servername}** si riavvierà tra 1 minuto.",
         "schedule_reason": "Riavvio programmato alle %{time}",
@@ -14,10 +14,10 @@
         "schedule_warn_discord": "**%{servername}** è programmato per riavviarsi in %{smart_count} minuti. |||| **%{servername}** è programmato per riavviarsi in %{smart_count} minuti."
     },
     "ban_messages": {
-        "kick_temporary": "(%{author}) Sei stato bannato da questo server per \"%{reason}\". Il tuo ban scadrà in: %{expiration}.",
+        "kick_temporary": "(%{author}) Sei stato bannato da questo server per \"%{reason}\". Il tuo ban scadrà tra: %{expiration}.",
         "kick_permanent": "(%{author}) Sei stato bannato permanentemente da questo server per \"%{reason}\".",
-        "reject_temporary": "Sei stato bannato da questo server..\nIl tuo ban scadrà in: %{expiration}.\nBan ID: %{id}.\nBan Motivazione: %{reason}.\nBannato da: %{author}.",
-        "reject_permanent": "Sei stato bannato da questo server.\nBan ID: %{id}.\nBan Motivazione: %{reason}.\nBanned da: %{author}."
+        "reject_temporary": "Sei stato bannato da questo server.\nIl tuo ban scadrà tra: %{expiration}.\nBan ID: %{id}.\nBan Motivazione: %{reason}.\nBannato da: %{author}.",
+        "reject_permanent": "Sei stato bannato da questo server.\nBan ID: %{id}.\nBan Motivazione: %{reason}.\nBannato da: %{author}."
     },
     "server_actions": {
         "restarting": "Riavvio del server (%{reason}).",
@@ -53,12 +53,12 @@
         "common": {
             "cancel": "Cancella",
             "submit": "Conferma",
-            "error": "Si è verificato un'errore",
+            "error": "Si è verificato un errore",
             "copied": "Copiato negli appunti."
         },
         "page_main": {
             "tooltips": {
-                "tooltip_1": "Usa %{key} per cambiare pagina e le freccette per navigare nel menu",
+                "tooltip_1": "Usa %{key} per cambiare pagina e usa le freccette per navigare nel menu",
                 "tooltip_2": "Alcune voci del menu hanno opzioni secondarie che possono essere selezionate utilizzando i tasti freccia sinistra e destra"
             },
             "player_mode": {
@@ -66,12 +66,12 @@
                 "noclip": {
                     "title": "NoClip",
                     "label": "Vola",
-                    "success": "NoClip attivo"
+                    "success": "NoClip attivo."
                 },
                 "godmode": {
                     "title": "God",
                     "label": "Invincibilità",
-                    "success": "God Mode attiva"
+                    "success": "God Mode attiva."
                 },
                 "normal": {
                     "title": "Normale",
@@ -84,8 +84,8 @@
                 "generic_success": "Mandato nel wormhole!",
                 "waypoint": {
                     "title": "Waypoint",
-                    "label": "Vai al waypoint impostato",
-                    "error": "Non hai un waypoint impostato."
+                    "label": "Vai al punto impostato",
+                    "error": "Non hai un punto impostato."
                 },
                 "coords": {
                     "title": "Coordinate",
@@ -146,21 +146,21 @@
             },
             "announcement": {
                 "title": "Manda Annuncio",
-                "label": "Manda un annuncio a tutti i player online.",
-                "dialog_desc": "Enter the message you want to broadcast to all players.",
+                "label": "Manda un annuncio a tutti i giocatori online.",
+                "dialog_desc": "Inserisci il messaggio che vuoi mandare a tutti i giocatori.",
                 "dialog_placeholder": "Il tuo annuncio...",
                 "dialog_success": "Inviando l'annuncio."
             },
             "clear_area": {
                 "title": "Resetta l'area",
-                "label": "Reset a specified world area to its default state",
-                "dialog_desc": "Inserisci il raggio in cui desideri reimpostare le entità (0-300). Questo non cancellerà le entità generate sul lato server",
+                "label": "Resetta una specifica area al suo stato default",
+                "dialog_desc": "Inserisci il raggio in cui desideri reimpostare le entità (0-300). Questo non cancellerà le entità generate lato server",
                 "dialog_success": "Pulendo l'area in un raggio di %{radius}m",
                 "dialog_error": "Inserimento raggio non valido. Riprova."
             },
             "player_ids": {
                 "title": "Toggle ID dei Player",
-                "label": "Toggle showing player IDs (and other info) above the head of all nearby players",
+                "label": "Toggle mostra player ID's (e altre informazioni) sopra la testa dei giocatori vicini",
                 "alert_show": "Mostra gli ID dei player vicini.",
                 "alert_hide": "Nascondi gli ID dei player vicini."
             }
@@ -240,7 +240,7 @@
                         "heal_player": "Curando il Giocatore",
                         "tp_player": "Teletrasportandosi dal Giocatore",
                         "bring_player": "Bringando il Giocatore",
-                        "spectate_failed": "Impossibile risolvere il bersaglio! Uscendo dallo Spectate.",
+                        "spectate_failed": "Impossibile raggiungere il giocatore! Uscendo dallo Spectate.",
                         "spectate_yourself": "Non puoi spectarti da solo.",
                         "freeze_yourself": "Non puoi freezarti da solo."
                     }
@@ -269,7 +269,7 @@
                     "ban": "BANNATO",
                     "ban_revoked": "REVOCATO il BAN per",
                     "whitelist": "WHITELIST",
-                    "whitelist_revoked": "REVOCATA la WHITELIS per"
+                    "whitelist_revoked": "REVOCATA la Whitelist per"
                 }
             },
             "ban": {
